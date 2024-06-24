@@ -2,7 +2,7 @@
 set $mod Mod1
 
 #FONT
-font pango:IBM Plex Sans 8
+font pango:CascadiaMono NF SemiBold 8
 
 #i3/i3Lock
 exec --no-startup-id dex --autostart --environment i3
@@ -27,8 +27,8 @@ bindsym $mod+t exec st
 #KILL WINDOW
 bindsym $mod+q kill
 
-#RUN DMENU
-bindsym $mod+x exec --no-startup-id dmenu_run
+#RUN DMENU/ROFI
+bindsym $mod+x exec --no-startup-id rofi -show drun
 
 #START BROWSWER
 bindsym $mod+c exec chromium
@@ -120,7 +120,7 @@ bar {
 for_window [class="^.*"] border pixel 0
 gaps inner 4
 gaps outer 4
-smart_gaps on
+smart_gaps off
 smart_borders on
 
 #EXEC
