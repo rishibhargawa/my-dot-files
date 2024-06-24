@@ -116,6 +116,13 @@ bar {
 	status_command i3status
 }
 
+#GAPS
+for_window [class="^.*"] border pixel 0
+gaps inner 4
+gaps outer 4
+smart_gaps on
+smart_borders on
+
 #EXEC
 exec_always xrandr -s 1920x1080
 exec_always picom
