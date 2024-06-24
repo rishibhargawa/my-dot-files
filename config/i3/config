@@ -2,7 +2,7 @@
 set $mod Mod1
 
 #FONT
-font pango:CascadiaMono NF SemiBold 8
+font pango:Fira Sans 8
 
 #i3/i3Lock
 exec --no-startup-id dex --autostart --environment i3

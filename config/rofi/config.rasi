@@ -1,6 +1,6 @@
 configuration {
 	modes: "window,drun,run,ssh";
-	font: "CascadiaCode NF 10";
+	font: "Fira Sans 10";
 	show-icons: false;
 	terminal: "st";
 	disable-history: false;
@@ -25,3 +25,5 @@ window {
 	height: 250px;
 	border-radius: 10px;
 }
+
+/*@theme "test"*/
