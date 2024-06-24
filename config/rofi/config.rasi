@@ -1,6 +1,6 @@
 configuration {
 	modes: "window,drun,run,ssh";
-	font: "Fira Sans 10";
+	font: "DM Sans 11";
 	show-icons: false;
 	terminal: "st";
 	disable-history: false;
@@ -21,8 +21,8 @@ filebrowser {
 }
 
 window {
-	width:500px;
-	height: 250px;
+	width:450px;
+	height: 200px;
 	border-radius: 10px;
 }
 
