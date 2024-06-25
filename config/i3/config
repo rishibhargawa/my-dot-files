@@ -2,7 +2,7 @@
 set $mod Mod1
 
 #FONT
-font pango:Liberation Sans 8
+font pango:Overpass Nerd Font 8
 
 #i3/i3Lock
 exec --no-startup-id dex --autostart --environment i3
@@ -112,9 +112,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #i3Status
-bar {
-	status_command i3status
-}
 
 #GAPS
 for_window [class="^.*"] border pixel 0
@@ -124,9 +121,8 @@ smart_gaps off
 smart_borders on
 
 #EXEC
-exec_always xrandr -s 1920x1080
-exec_always picom
-exec_always nitrogen --restore
-exec_always autotiling
-
-
+exec_always --no-startup-id xrandr -s 1920x1080
+exec_always --no-startup-id picom
+exec_always --no-startup-id nitrogen --restore
+exec_always --no-startup-id autotiling
+exec_always ~/.config/polybar/launch.sh
