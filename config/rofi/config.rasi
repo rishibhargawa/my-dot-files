@@ -1,13 +1,13 @@
 configuration {
 	modes: "drun,run";
-	font: "Liberation Sans 10";
+	font: "Overpass Nerd Font 10";
 	show-icons: false;
 	terminal: "st";
 	disable-history: false;
 	cycle: false;
 	click-to-exit: true;
 	max-history-size:6;
-	steal-focus:true;
+	steal-focus:false;
 }
 
 timeout {
