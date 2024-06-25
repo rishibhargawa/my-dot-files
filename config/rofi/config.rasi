@@ -7,7 +7,7 @@ configuration {
 	cycle: false;
 	click-to-exit: true;
 	max-history-size:6;
-	steal-focus:true;
+	steal-focus:false;
 }
 
 timeout {
