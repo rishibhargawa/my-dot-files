@@ -1,6 +1,6 @@
 configuration {
-	modes: "window,drun,run,ssh";
-	font: "DM Sans 11";
+	modes: "drun,run";
+	font: "Liberation Sans 10";
 	show-icons: false;
 	terminal: "st";
 	disable-history: false;
@@ -20,10 +20,4 @@ filebrowser {
 	sorting-method: "name";
 }
 
-window {
-	width:450px;
-	height: 200px;
-	border-radius: 10px;
-}
-
-/*@theme "test"*/
+@theme "simple"

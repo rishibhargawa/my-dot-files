@@ -2,7 +2,7 @@
 set $mod Mod1
 
 #FONT
-font pango:DM Sans 8
+font pango:Liberation Sans 8
 
 #i3/i3Lock
 exec --no-startup-id dex --autostart --environment i3
@@ -128,3 +128,5 @@ exec_always xrandr -s 1920x1080
 exec_always picom
 exec_always nitrogen --restore
 exec_always autotiling
+
+
