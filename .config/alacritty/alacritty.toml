@@ -1,0 +1,24 @@
+live_config_reload=true
+
+[window]
+dynamic_padding=true
+decorations="None"
+opacity=0.5
+decorations_theme_variant="None"
+
+[scrolling]
+history=10000
+multiplier=1
+
+[font]
+normal={family="GeistMono Nerd Font Mono",style="SemiBold"}
+size=10
+
+[selection]
+save_to_clipboard=true
+
+[terminal]
+osc52="CopyPaste"
+
+[mouse]
+hide_when_typing=true
