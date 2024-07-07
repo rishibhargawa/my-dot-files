@@ -45,8 +45,3 @@ listview {
 element-text {
 	color: @txt;
 }
-
-element normal.active{
-	background-color:red;
-	text-color: @txt;
-}

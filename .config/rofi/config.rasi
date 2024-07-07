@@ -1,6 +1,6 @@
 configuration {
 	modes: "drun,run";
-	font: "Liberation Sans 11";
+	font: "Red Hat Display Medium 12";
 	show-icons: true;
 	terminal: "alacritty";
 	disable-history: false;

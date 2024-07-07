@@ -3,7 +3,7 @@ live_config_reload=true
 [window]
 dynamic_padding=true
 decorations="None"
-opacity=0.5
+opacity=0.7
 decorations_theme_variant="None"
 
 [scrolling]
@@ -11,8 +11,8 @@ history=10000
 multiplier=1
 
 [font]
-normal={family="GeistMono Nerd Font Mono",style="SemiBold"}
-size=10
+normal={family="FiraCode Nerd Font Mono",style="Regular"}
+size=9
 
 [selection]
 save_to_clipboard=true
