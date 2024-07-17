@@ -1,6 +1,0 @@
-2024/07/15-18:41:16.110 4 Reusing MANIFEST /home/rishi/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2024/07/15-18:41:16.122 4 Recovering log #81
-2024/07/15-18:41:16.123 4 Reusing old log /home/rishi/.config/chromium/Default/Local Storage/leveldb/000081.log 
-2024/07/15-18:41:25.402 6 Level-0 table #86: started
-2024/07/15-18:41:25.417 6 Level-0 table #86: 70709 bytes OK
-2024/07/15-18:41:25.421 6 Delete type=0 #81
