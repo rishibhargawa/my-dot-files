@@ -1,0 +1,18 @@
+2024/07/15-18:21:55.614 4 Reusing MANIFEST /home/rishi/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/07/15-18:21:55.626 4 Recovering log #76
+2024/07/15-18:21:55.627 4 Reusing old log /home/rishi/.config/chromium/Default/Local Storage/leveldb/000076.log 
+2024/07/15-18:22:09.048 5 Level-0 table #80: started
+2024/07/15-18:22:09.096 5 Level-0 table #80: 62563 bytes OK
+2024/07/15-18:22:09.101 5 Delete type=0 #76
+2024/07/15-18:40:07.926 5 Level-0 table #82: started
+2024/07/15-18:40:07.947 5 Level-0 table #82: 237676 bytes OK
+2024/07/15-18:40:07.952 5 Delete type=0 #79
+2024/07/15-18:40:07.954 5 Compacting 4@0 + 1@1 files
+2024/07/15-18:40:07.980 5 Generated table #83@0: 284 keys, 346374 bytes
+2024/07/15-18:40:07.981 5 Compacted 4@0 + 1@1 files => 346374 bytes
+2024/07/15-18:40:07.983 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/07/15-18:40:07.984 5 Delete type=2 #80
+2024/07/15-18:40:07.984 5 Delete type=2 #77
+2024/07/15-18:40:07.984 5 Delete type=2 #74
+2024/07/15-18:40:07.984 5 Delete type=2 #72
+2024/07/15-18:40:07.984 5 Delete type=2 #82

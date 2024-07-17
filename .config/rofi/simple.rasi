@@ -1,6 +1,6 @@
 * {
-	bg: #33313B;
-	txt: #F6F5F5;
+	bg: #1a183d;
+	txt: #ffffff;
 	hv: #0F4C75;
 	ug: #3282B8;
 
@@ -11,7 +11,8 @@
 
 window {
 	width:350px;
-	border:2.5px;
+	border:2px;
+	corner-radius:5px;
 	children: [mainbox];
 	orientation: horizontal;
 }
@@ -27,7 +28,7 @@ message {
 inputbar {
 	color: @txt;
 	padding: 7px;
-	border: 2.5px;
+	border: 2px;
 	border-color: @txt;
 }
 

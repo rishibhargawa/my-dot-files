@@ -7,14 +7,13 @@
 set $mod Mod4
 
 #FONT
-font pango:monospace 8
+font pango:FreeSans 10px
 
 #i3/i3Lock
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 #BRIGHTNESS
-exec_always brightnessctl s 80%
 bindsym XF86MonBrightnessUp exec brightnessctl s +10%
 bindsym XF86MonBrightnessDown exec brightnessctl s 10%-
 
@@ -35,7 +34,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 #START TERMINAL
-bindsym $mod+t exec alacritty
+bindsym $mod+t exec --no-startup-id alacritty
 
 #KILL WINDOW
 bindsym $mod+q kill
@@ -44,7 +43,7 @@ bindsym $mod+q kill
 bindsym $mod+x exec --no-startup-id rofi -show drun
 
 #START BROWSWER
-bindsym $mod+c exec chromium
+bindsym $mod+c exec firefox
 
 #FOCUS WINDOW
 bindsym $mod+Left focus left
@@ -124,11 +123,20 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+#COLORS
+# class                 border  backgr. text    indicator child_border
+client.focused          #374fe5 #285577 #ffffff #374fe5   #374fe5
+client.focused_inactive #4d4d4d #5f676a #ffffff #4d4d4d   #4d4d4d
+client.unfocused        #4d4d4d #222222 #ffffff #4d4d4d   #4d4d4d
+client.urgent           #DC5F00 #900000 #ffffff #DC5F00   #DC5F00
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
 #GAPS
-for_window [class="^.*"] border pixel 0
-gaps inner 6
-smart_gaps on
-smart_borders on
+for_window [class="^.*"] border pixel 1
+gaps inner 4
+gaps outer 6
+smart_gaps off
+hide_edge_borders none
 
 #EXEC
 exec_always ~/.config/batteryicon.sh
