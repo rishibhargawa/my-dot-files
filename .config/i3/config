@@ -7,7 +7,7 @@
 set $mod Mod4
 
 #FONT
-font pango:FreeSans 10px
+font pango:Mononoki Nerd Font 8
 
 #i3/i3Lock
 exec --no-startup-id dex --autostart --environment i3
@@ -125,7 +125,7 @@ bindsym $mod+r mode "resize"
 
 #COLORS
 # class                 border  backgr. text    indicator child_border
-client.focused          #374fe5 #285577 #ffffff #374fe5   #374fe5
+client.focused          #b79680 #285577 #ffffff #b79680   #b79680
 client.focused_inactive #4d4d4d #5f676a #ffffff #4d4d4d   #4d4d4d
 client.unfocused        #4d4d4d #222222 #ffffff #4d4d4d   #4d4d4d
 client.urgent           #DC5F00 #900000 #ffffff #DC5F00   #DC5F00
@@ -134,7 +134,7 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 #GAPS
 for_window [class="^.*"] border pixel 1
 gaps inner 4
-gaps outer 6
+gaps outer 4
 smart_gaps off
 hide_edge_borders none
 

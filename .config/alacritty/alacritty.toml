@@ -1,21 +1,21 @@
 live_config_reload=true
 
 import=[
-	"~/.config/alacritty/themes/themes/aura.toml"
+	"~/.config/alacritty/themes/themes/github_dark_high_contrast.toml"
 ]
 
 [window]
 dynamic_padding=true
 decorations="None"
-opacity=0.6
+opacity=1
 decorations_theme_variant="None"
 
 [scrolling]
 history=10000
-multiplier=1
+multiplier=3
 
 [font]
-normal={family="Lilex Nerd Font Mono",style="Medium"}
+normal={family="Mononoki Nerd Font Mono"}
 size=9
 
 [selection]
