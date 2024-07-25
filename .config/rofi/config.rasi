@@ -1,7 +1,7 @@
 configuration {
-	display-drun: "Start:";
+	display-drun: " ";
 	drun-display-format: "{icon} {name}";
-	font: "Mononoki Nerd Font Propo 12";
+	font: "Roboto 11";
 	modi: "window,run,drun";
 	show-icons: true;
 }
@@ -9,8 +9,8 @@ configuration {
 @theme "/dev/null"
 
 *{
-bg: #000000;
-bg-alt: #000000;
+bg: #191917;
+bg-alt: #191917;
 
 fg: #ffffff;
 fg-alt: #B7B7B7;
@@ -24,9 +24,9 @@ spacing: 0;
 
 window {
 width: 400px;
-border:2px;
-border-color:#6c534a;
-border-radius:10px;
+border:1px;
+border-color:#eeeeee;
+border-radius:0px;
 }
 
 element {
@@ -74,5 +74,13 @@ prompt {
 enabled:true;
 padding: 12 0 0 12;
 background-color: @bg-alt;
+text-color: @fg;
+}
+
+error-message {
+background-color: @bg;
+}
+
+textbox{
 text-color: @fg;
 }
