@@ -12,11 +12,11 @@ history=10000
 multiplier=1
 
 [font]
-normal={family="JetBrainsMono Nerd Font Mono",style="Regular"}
-bold={family="JetBrainsMono Nerd Font Mono",style="Bold"}
-italic={family="JetBrainsMono Nerd Font Mono",style="Italic"}
-bold_italic={family="JetBrainsMono Nerd Font Mono",style="Bold Italic"}
-size=10
+normal={family="JetBrainsMono",style="Regular"}
+bold={family="JetBrainsMono",style="Bold"}
+italic={family="JetBrainsMono",style="Italic"}
+bold_italic={family="JetBrainsMono",style="Bold Italic"}
+size=9
 
 [selection]
 save_to_clipboard=true

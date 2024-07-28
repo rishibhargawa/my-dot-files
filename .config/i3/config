@@ -60,7 +60,7 @@ bindsym $mod+space focus mode_toggle
 
 bindsym $mod+a focus parent
 #Font\\
-font pango:monospace 10
+font pango:Open Sans 8
 
 #Workspace Settings\\
 set $ws1 "1"
@@ -68,6 +68,12 @@ set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
+
+#assign [class=""] $ws1
+assign [class="firefox"] $ws2
+#assign [class=""] $ws3
+assign [class="Alacritty"] $ws4
+assign [class="easyeffects"] $ws5
 
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -95,6 +101,12 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+#Playerctl\\
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioStop exec playerctl stop
+bindsym XF86AudioPlay exec playerctl play-pause
 
 #Resize\\
 mode "resize" {
