@@ -10,14 +10,15 @@ cd
 
 yay -S autotiling;
 
-cd github-repos/my-dot-files/; cp -r .config ~/.config; cp -r .bashrc ~/ ;sudo cp -r 30-touchpad.conf /etc/X11/xorg.conf.d/ ;cp -r * ~/ ;cp -r .fonts ~/ ;
-
 cd
 
 source .bashrc
 
 sudo systemctl enable lightdm
 sudo systemctl enable fstrim.timer
+
+sudo timedatectl set-local-rtc 1
+sudo systemctl disable systemd-timesyncd
 
 echo "SETUP COMPLETED!!"
 echo "REBOOTING"
